@@ -18,7 +18,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
             <div class="container-fluid">
                 <div class="mx-4">
-                    <a class="navbar-brand" href="#">Tristan Bruel</a>
+                    <a class="navbar-brand" href="#top">Tristan Bruel</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -27,11 +27,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
-                        </li>
 			<li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="scrolly active active-locked" href="#research">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="scrolly active active-locked" href="#aboutme">About Me</a>
                         </li>
 			<li class="nav-item">
                             <a class="nav-link" href="CV_Bruel.pdf" target="_blank">Curriculum Vitae</a>
@@ -43,24 +43,52 @@
                 </div>
             </div>
         </nav>
+        <div id="main">
+		<section id="top" class="">
+			<div class="container">
+				<div class="col-4 col-5-large col-12-medium"> </div>
+				<div class="col-8 col-7-large col-12-medium">
+					<header>
+						<h1><strong>Tristan Bruel</strong></h1>
+						<h1>PhD Student</h1>
+					</header>
+					<p> Hi, I'm Tristan! I'm a 2nd year PhD Student at the <a href="https://lagrange.oca.eu/fr/accueil-lagrange">Observatoire de la Côte d'Azur</a> (Lagrange laboratory) 
+					in Nice, France. In my work I study some of the most extreme events in the Universe: the mergers of two black holes. 
+					Using their gravitational wave emissions (or '<a href="https://www.ligo.caltech.edu/page/what-are-gw">ripples</a>' in space-time), 
+					I aim to understand how, when, and where these systems formed. I am a member of the LIGO-Virgo-KAGRA Collaboration.
+					</p> 
+					<br>
+					<b>office adress:</b>Batiment Fizeau, 28 Av. Valrose, 06000 Nice, FRANCE
+					<br>
+					<b>email:</b>tristan.bruel at oca.eu
+				</div>
+			</div>
+		</section>
+		<section id="research" class="">
+			<div class="container">
+				<header class="major">
+					<h3>Gravitional wave astronomy</h3>
+				</header>
+				<p> Since the <a href="https://news.mit.edu/2016/ligo-first-detection-gravitational-waves-0211">first direct detection</a> of gravitational waves in 2015, the LIGO-Virgo-KAGRA
+				Collaboration has now reported ~100 detections of compact object mergers. We are now in the midst of the 4th observing run, which should enable us to explore in a statistical way
+				the properties of Black Hole Binaries in the local Universe. With this new astronomical tool, we are starting to uncover the processes involved in the formation of pairs of
+				compact objects and are pushing back the frontiers of our knowledge of the history of our Universe.
+				</p>
+				<a class="image">
+					<img src="images/ligoSXSlensing-lg.jpg" alt="Image extracted from the Simulateing eXtreme Spacetimes (SXS) project: Two Black Holes Merge into One">
+				</a>
+				<p> More to be added about my research here. </p>
+			</div>
+		</section>
+		<section id="aboutme" class="">
+			<div class="container">
+				<header>
+					<h2>About Me</h2>
+				</header>
+			</div>
+		</section>
 
-        <div class="container my-4 ">
-            <div class="row justify-content-center">
-                <div class="col-lg mb-lg-4">
-                    <img src="ligoSXSlensing-lg.jpg" class="img-fluid" alt="Simulating eXtreme Spacetimes (SXS) project: Two Black Holes merging into one" srcset="">
-                </div>
-                <div class="col-lg mx-2 align-self-center">
-                    <div class="my-3">
-                        <h1 class="text-center">Tristan Bruel | PhD Student</h1>
-                        <p> Hi, I'm Tristan! I'm a 2nd year PhD Student at the <a href="https://lagrange.oca.eu/fr/accueil-lagrange">Observatoire de la Côte d'Azur</a> (Lagrange laboratory) in Nice, France.
-			    In my work I study some of the most extreme events in the Universe: mergers of two
-			    black holes. Using their gravitational wave emission (or '<a href="https://www.ligo.caltech.edu/page/what-are-gw">ripples</a>' in space-time),
-			    I aim to understand how, when, and where these systems formed.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="my-4">
+		<div class="my-4">
                 <div class="text-center mb-4">
                     <h1>My Skills</h1>
                 </div>
@@ -77,10 +105,22 @@
                             <i class="devicon-python-plain"></i>
                         </div>
                     </div>
+		    <div class="col">
+                        <div class="text-center">
+                            <h4>R</h4>
+                            <i class="devicon-r-plain"></i>
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="text-center">
                             <h4>GitHub</h4>
                             <i class="devicon-github-original"></i>
+                        </div>
+                    </div>
+		    <div class="col">
+                        <div class="text-center">
+                            <h4>LaTeX</h4>
+                            <i class="devicon-latex-original"></i>
                         </div>
                     </div>
                 </div>
